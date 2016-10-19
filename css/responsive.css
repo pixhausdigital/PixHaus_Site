@@ -1,0 +1,162 @@
+﻿/* CSS Document */
+@media only screen and (max-width: 1166px) and (min-width: 842px) {
+	.field{
+		width:49.7%;
+	}
+	.field:last-of-type input{
+		width:94%;
+	}
+	.field:last-of-type{
+		width:100%;
+	}
+}
+@media only screen and (max-width: 842px) {
+	.field input{
+		width:94%;
+	}
+	.field{
+		width:100%;
+	}
+}
+@media only screen and (max-width: 800px) {
+	/*hide menu and show hamburger*/
+	#hamburgerMenu{
+		display:inherit;
+	}
+	#anchorMenuContainer{
+		display:none;
+	}
+	#textBanner{
+		margin-left: 1em;
+    	margin-right: 1em;
+		font-size: 1.14em;	
+	}
+}
+@media only screen and (max-width: 759px) {
+	#whoMauro .smallView{
+		display:inherit;
+	}
+	#whoMauro img.smallView{
+		margin-left:0px;	
+	}
+	#whoMauro .largeView{
+		display:none;	
+	}
+}
+@media only screen and (max-width: 730px) and (min-width: 651px), screen and (max-width: 375px) {
+	.weDoContainers img,.weDoOverlay{
+		width:20em;
+		height:20em;	
+	}
+	.overlayTextContainer{
+		width:17em;
+		height:17em;	
+	}
+	.weDoContainers h3 img{
+		width:27px;
+		height:27px;	
+	}
+	.overlayTextSeparator img{
+		width:24px;
+		height:24px;
+	}
+	.floaterSpacer {
+    	width: 210px;
+	}
+}
+@media only screen and (max-width: 696px) {
+	#whoText .whoPerson{
+		width:89%;
+	}
+	#whoMauro .smallView{
+		display:none;
+	}
+	#whoMauro{
+		margin-left:0px;	
+	}
+	#whoMauro .largeView{
+		display:inline-block;	
+	}
+	#whoK_Title,#whoK_Text,#whoK_imageContainer{
+		text-align:left;	
+	}
+	#whoKlaus .smallView{
+		display:inline-block;
+	}
+	#whoKlaus img.smallView{
+		margin-left:0px;	
+	}
+	#whoKlaus .largeView{
+		display:none;	
+	}
+	#whoK_imageContainer img#KPic {
+    	margin-left: 0px;
+	}
+	#whoKlaus{
+		margin-bottom:3em;	
+	}
+}
+@media only screen and (max-width: 390px) {
+	#languageMenuContainer{
+		margin-right: 1em;
+	}
+	.languageSelector{
+		margin-left: 0.2em;
+    	margin-right: 0.2em;
+	}
+	#socialLinksContainer{
+		padding:0em;
+	}
+	#whoMauro .smallView{
+		display:inherit;
+	}
+	#whoMauro .largeView{
+		display:none;	
+	}
+	#whoKlaus .smallView{
+		display:none;
+	}
+	#whoKlaus img.largeView{
+		margin-left:0px;	
+	}
+	#whoKlaus .largeView{
+		display:inherit;	
+	}
+	#whoKlaus .largeView img{
+		display:inline-block;	
+	}
+	#footerContainer{
+		font-size:0.4em;	
+	}
+	#footerContainer img{
+		width:5px;
+		height:5px;
+	}
+}
+@media only screen and (max-width: 332px) {
+	.weDoContainers img,.weDoOverlay{
+		width:17em;
+		height:17em;	
+	}
+	.overlayTextContainer{
+		width:15em;
+		height:15em;	
+	}
+	.overlayText{
+		font-size:0.6em;
+	}
+	.overlayTextTitle{
+    	font-size: 1.5em;
+	}
+	.weDoContainers h3 img{
+		width:27px;
+		height:27px;	
+	}
+	.overlayTextSeparator img{
+		width:20px;
+		height:20px;
+	}
+	.floaterSpacer {
+    	width: 165px;
+	}	
+}

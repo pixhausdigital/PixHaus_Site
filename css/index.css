@@ -1,0 +1,403 @@
+﻿/* CSS Document */
+.OpenSans{
+	font-family: 'Open Sans', sans-serif;
+	font-weight:600;
+}
+.Anton{
+	text-transform: uppercase;
+	font-family:'Anton', sans-serif;
+}
+.partHeader{
+	font-size: 2.3em;
+    font-family: 'Anton', sans-serif;
+    text-transform: uppercase;
+    word-spacing: 0.3em;
+    margin-bottom: 1em;
+    padding-top: 1em;
+	text-align:center;
+}
+.partContainer{
+	padding-bottom:3em !important;
+	/*min-width:354px; */
+}
+body{ 
+	margin:auto;
+	padding-top: 70px;
+	/*min-width:340px; */
+}
+#headerContainer{
+	background-color:rgba(0,0,0,1.00);
+	font-size:1em;
+	height: 70px;
+  	position: fixed;
+  	top: 0;
+  	transition: top 0.2s ease-in-out;
+  	width: 100%;
+	z-index: 1;
+}
+#headerContainer:after{
+    clear: both;
+    content: "";
+    display: block;
+}
+#headerContainer.nav-up {
+  top: -70px; // same as header height. use variables in LESS/SASS
+}
+#hamburgerMenu{
+	float:left;
+	position:relative;
+	height: 70px;
+	left:1em;
+	display:none;
+	z-index:3;
+}
+#hamburgerMenu img{
+	position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+	cursor: pointer; cursor: hand;
+}
+#anchorMenuHamburger{
+	display:none;
+	position: absolute;
+    background-color: black;
+    z-index: 2;
+	color:rgba(255,255,255,1.00);
+    padding-top: 3em;
+}
+#anchorMenuHamburger .anchorMenu{
+		display:block;
+		margin:1em;
+		cursor: pointer; cursor: hand;
+	}
+#anchorMenuContainer{
+	float:left;
+	color:rgba(255,255,255,1.00);
+	margin-bottom:10px;
+	padding-top:2em;
+	 
+}
+#anchorMenuContainer .anchorMenu{
+	cursor: pointer; cursor: hand;
+}
+header{
+	background-color:rgba(0,0,0,1.00);
+}
+#anchorMenuContainer .anchorMenu{
+	padding-left:3em;
+}
+#rightTopContainer{
+	float:right;
+}
+#languageMenuContainer{
+	float:left;
+	color:rgba(255,255,255,1.00);
+	margin-right:4em;
+	text-align:center;
+
+}
+.languageSelector{
+	float:none;
+	display:inline-block;
+	margin: 1.3em;
+}
+.languageSelector .selected{
+	display:none;
+}
+#socialLinksContainer{
+	float:left;
+    padding-right: 1em;
+	text-align:center;
+}
+#socialLinksContainer img{
+	width:33px;
+	height:33px;
+	margin: 1em;
+    margin-right: 10px;
+    margin-left: 5px;
+	float:none;
+	display:inline-block;
+}
+#logoContainer{
+	position:relative;
+	left:50%;
+	margin-left:-111px;
+	padding-top:4em;
+	padding-bottom:2em;
+	display: inline-block;
+}
+#bannerContainer{
+	padding-bottom:0em !important;
+	}
+#textBanner{
+	text-align:center;
+	font-size:1.3em;
+	color:rgba(150,150,150,1.00);
+	margin-bottom:2em;
+}
+#squares{
+	background-image:url(../image/Fundo_quadrados_looping.png);
+	background-position: center center;
+	background-repeat:repeat-x;
+	height:246px;
+}
+#orangeTextContainer{
+	background-color:#DA401C;
+	text-align:center;
+	color:#F7FCF6;
+	padding-bottom:1em;
+}
+#orangeText{
+	font-size:1em;
+	display: inline-block;
+	max-width: 45em;
+	margin:1em;
+}
+#sloganContainer{
+	padding-top:3em;
+}
+#sloganContainer img{
+	padding-right:1em;
+}
+#weDoContainer{
+	background-color:rgba(0,0,0,1.00);
+	padding-bottom:1em;
+}
+#weDoTitle{
+	color:rgba(255,255,255,1.00);
+}
+#weDoSubtitle{
+    color: white;
+	font-size: 0.8em;
+    text-align: center;
+    margin-bottom: 2em;
+    margin-top: -0.9em;	
+}
+.weDoFloater{
+	display:inline-block;
+	margin-left: -5px;
+    margin-top: -5px;
+}
+#weDoImagesCenterContainer{
+	text-align:center;
+}
+#weDoImagesContainer{
+	background-color:rgba(0,0,0,1.00);
+	display:inline-block;
+	max-width:1094px;
+}
+.weDoContainers{
+	position: relative;
+	width: 100%; /* for IE 6 */
+	max-height:360px;
+}
+.weDoContainers h3{
+	background-color:rgba(0,0,0,0.7);
+	color:rgba(255,255,255,1.00);
+	position:absolute;
+	bottom:0px;
+	margin:0px;
+	padding-top:1em;
+	padding-bottom:1em;
+	padding-right:1em;
+	font-size:1.3em;
+	font-family:'Anton', sans-serif;
+	text-transform: uppercase;
+	font-weight: normal;
+}
+.weDoContainers h3 span{
+	/*letter-spacing:0.1em; */
+}
+.floaterSpacer{
+	width: 240px;
+    text-align: right;
+}
+.weDoContainers h3 img{
+	position:absolute;
+	margin:0px;
+	padding:0px;
+	top:0px;
+	right:0px;
+}
+.weDoOverlay{
+	width:360px;
+	height:360px;
+	position:absolute;
+	margin:0px;
+	padding:0px;
+	top:0px;
+	right:0px;
+	background-color:rgba(0,0,0,0.80);
+	display:none;
+}
+.overlayTextContainer{
+	margin: auto;
+  	position: absolute;
+  	top: 0; left: 0; bottom: 0; right: 0;
+	width:300px;
+	height:300px;
+	border-color:#db401d;
+	border-style:solid;
+	border-width:thin;
+	text-align:center;
+	color:rgba(255,255,255,1.00);
+}
+.overlayTextTitle{
+	font-size:2em;
+	margin-top:1em;
+}
+.overlayTextSeparator{
+	margin:0.5em;
+}
+.overlayText{
+	font-size:1em;
+	max-width:80%;
+	display:inline-block;
+}
+#whoContainer{
+	background-color:#ff8200;
+	color:rgba(255,255,255,1.00);
+	text-align:center;
+	padding-bottom:1em;
+}
+#whoText{
+	display: inline-block;
+    max-width: 80em;
+}
+#whoText .whoPerson{
+	display:inline-table;
+	width:45%;
+	text-align:left;
+}
+#whoMauro{
+	margin-left:4em;
+}
+#whoK_imageContainer{
+	text-align:right;
+}
+.whoImageContainer img{
+	margin-left:1em;
+}
+#whoM_imageContainer img#MPic{
+	margin-left:0px;	
+}
+#whoK_Title{
+	text-align:right;
+}
+#whoK_Text{
+	text-align:right;
+}
+.whoTitle{
+	font-size:1.5em;
+	letter-spacing: 0.03em;	
+}
+
+#contactContainer{
+	text-align:center;
+	background-color:rgba(219,64,29,1.00);
+	color:rgba(255,255,255,1.00);
+	padding-bottom:1em;
+}
+#contactSubTitle{
+	font-size:1.2em;
+	margin:1em;
+}
+#contactInformation{
+	font-size:1em;
+	margin-bottom: 2em;
+	margin-top: 0em;
+	margin:1em;
+}
+#contactInformation a{
+	color:rgba(255,255,255,1.00);
+}
+#contactInfoForm{
+	font-size:1em;
+	margin:1em;	
+}
+#contactInfoForm a{
+	color:rgba(255,255,255,1.00);
+}
+#mailForm{
+	max-width:80%;
+	margin: 0px auto;
+}
+#mailForm input,textarea,button{
+	border-radius:5px;
+	border-color:transparent;
+	padding:1em;
+}
+#mailForm ::-webkit-input-placeholder {
+   color: black;
+}
+
+#mailForm :-moz-placeholder { /* Firefox 18- */
+   color: black;
+}
+
+#mailForm ::-moz-placeholder {  /* Firefox 19+ */
+   color: black; 
+}
+
+#mailForm :-ms-input-placeholder {  
+   color: black; 
+}
+#messageContainer{
+	margin-top:1em;
+}
+
+.field{
+	width:32.3%;
+	display:inline-block;
+	margin-bottom:1em;	
+}
+.field input{
+	width:88%;
+}
+#message textarea{
+	width:94%;
+	height:10em;
+}
+#message{
+	width:100%;
+	margin-top:1em;
+	display:inline-block;
+}
+span.clear { clear: left; display: block; }
+#formLastLine{
+	overflow: hidden;
+	max-width: 96%;
+    margin: auto;
+	padding-top:2em;
+}
+#submitButton{
+	background-color:#800000;
+	color:rgba(255,255,255,1.00);
+	width: 15em;
+    margin-top: -1em;
+}
+#footerContainer{
+	text-align:center;
+background-color:rgba(0,0,0,1.00);
+color:rgba(255,255,255,1.00);
+padding:1.5em;
+padding-left: 0em;
+padding-right: 0em;
+    font-size: 0.8em;
+	/*min-width:354px; */
+}
+#footerContainer img{
+	margin-left:1em;
+	margin-right:1em;
+}
+.smallView{
+	display:none;	
+}
+#formDialog.ui-dialog-content{
+	text-align:left;
+	
+}
+#hiddenStuff{
+	display:none;	
+}
