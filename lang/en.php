@@ -28,8 +28,8 @@ $text["weDo_special_figcaption"]="Special Projects";
 $text["weDo_special_overlayTitle"]="Special Projects";
 $text["weDo_special_overlayText"]="Ask us about your special or unusual projects. You will be amazed at our
 experience in this area.";
-$text["weDo_creative_figcaption"]="Criative colaborations";
-$text["weDo_creative_overlayTitle"]="Criative colaborations";
+$text["weDo_creative_figcaption"]="co-creative";
+$text["weDo_creative_overlayTitle"]="co-creative";
 $text["weDo_creative_overlayText"]="Call us to take part in your brainstorming meetings with your team. You will gain a lot from our digital expertise.";
 $text["whoIs_title"]="who we are";
 $text["whoIs_person1_title"]="Klaus Koster";
