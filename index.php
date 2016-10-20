@@ -146,7 +146,7 @@ if($_GET["lang"] == "en"){
 <div id="whoContainer"  class="partContainer">
 <div id="whoTitle" class="Anton partHeader"><?php echo $text["whoIs_title"]; ?></div>
 <div id="whoText">
-<div id="whoKlaus" class="whoPerson"><div id="whoK_imageContainer" class="whoImageContainer"><span class="whoSocialContainer largeView"><img class="largeView" src="image/top-face.png" width="33" height="33" alt=""/><img src="image/top-link.png" width="33" height="33" alt=""/></span><img id="KPic" src="image/foto-klaus.png" width="220" height="220" alt=""/><span class="whoSocialContainer smallView"><img src="image/top-face.png" width="33" height="33" alt=""/><img src="image/top-link.png" width="33" height="33" alt=""/></span></div>
+<div id="whoKlaus" class="whoPerson"><div id="whoK_imageContainer" class="whoImageContainer"><span class="whoSocialContainer largeView"><a href="https://www.facebook.com/klaus.r.koster"><img class="largeView" src="image/top-face.png" width="33" height="33" alt=""/></a><a href="https://www.linkedin.com/in/klaus-koster-b3745a1" ><img src="image/top-link.png" width="33" height="33" alt=""/></a></span><img id="KPic" src="image/foto-klaus.png" width="220" height="220" alt=""/><span class="whoSocialContainer smallView"><a href="https://www.facebook.com/klaus.r.koster"><img src="image/top-face.png" width="33" height="33" alt=""/></a><a href="https://www.linkedin.com/in/klaus-koster-b3745a1"><img src="image/top-link.png" width="33" height="33" alt=""/></a></span></div>
 <div id="whoK_Title" class="Anton whoTitle"><?php echo $text["whoIs_person1_title"]; ?></div>
 <div id="whoK_Text" class="OpenSans"><?php echo $text["whoIs_person1_text"]; ?></div>
 </div>
