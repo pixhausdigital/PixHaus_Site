@@ -123,7 +123,7 @@ function hasScrolled() {
 		$.ajax({
   			type: "POST",
   			url: 'ajax/sendMail.php',
-  			data: $("#mailForm").serialize(),//+"&token="+browserToken,
+  			data: $("#mailForm").serialize(),
   			success: function(response)
   		{
 			//alert(response);
