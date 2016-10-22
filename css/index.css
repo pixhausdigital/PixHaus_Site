@@ -102,6 +102,9 @@ header{
 	display:inline-block;
 	margin: 1.3em;
 }
+#languageMenuContainer a{
+    color: black;
+}
 .languageSelector .selected{
 	display:none;
 }
